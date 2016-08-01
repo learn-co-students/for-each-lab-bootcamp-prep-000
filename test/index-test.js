@@ -1,6 +1,6 @@
 describe('index', function() {
   describe('iterativeLog(array)', function() {
-    it('logs each element with the format `${index}: ${element}!`', function() {
+    it('logs each element with the format `${index}: ${element}`', function() {
       const log = expect.spyOn(console, 'log').andCallThrough()
 
       iterativeLog([1, 2, 3])
